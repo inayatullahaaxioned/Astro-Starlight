@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://inayatullahaaxioned.github.io',
+	site: 'https://handbook.github.io',
 	integrations: [
 		starlight({
 			title: 'My Docs',

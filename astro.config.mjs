@@ -10,6 +10,12 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
+			head: [
+				{
+					tag: 'script',
+					content: `window.addEventListener('load', () => document.querySelector('.site-title').href += 'docs/')`,
+				},
+			],
 			sidebar: [
 				{
 					label: 'Guides',
